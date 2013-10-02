@@ -1,0 +1,180 @@
+/*
+Global Styles
+ */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.header-icons{
+
+
+}
+
+/*
+section icons
+ */
+
+#dynamic{
+	background: #fff url('/assets/img/icons-parker.png') -20px 0 repeat-y;
+	width: 100px;
+	height: 100px;
+
+}
+
+#flexible{
+	background: #fff url('/assets/img/icons-parker.png') -20px -100px repeat-y;
+	width: 100px;
+	height: 100px;
+}
+
+/*
+	Section Icon
+ */
+
+
+.professional{
+	background: #fff url('/assets/img/icons-parker.png') -20px -200px repeat-y;
+	width: 100px;
+	height: 100px;
+}
+
+#icon-row{
+	margin-top: 10%;
+}
+
+
+/*
+Social Icons
+ */
+
+#googleplus{
+	background: url('/assets/img/icons-parker.png') -20px -400px repeat-y;
+	width: 100px;
+	height: 100px;
+}
+
+#github{
+	background: url('/assets/img/icons-parker.png') -20px -500px repeat-y;
+	width: 100px;
+	height: 100px;
+}
+
+#twitter{
+	background: url('/assets/img/icons-parker.png') -20px -600px repeat-y;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+#linkedin{
+	background: url('/assets/img/icons-parker.png') -20px 99px repeat-y;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+/*
+potfolio styles
+*/
+
+.portfolio-row{
+	margin-top: 1.5%;
+}
+
+img.thumb-img{
+	width:300px;
+	height:200px;
+}
+
+/*
+	Connect Footer
+ */
+
+#social-connect{
+	position: relative;
+
+}
+
+#social-connect h2{
+		color: #000;
+		position: absolute;
+		left: 33%;
+		margin-bottom: 20px;
+}
+
+#social-icons{
+	margin-top: 10%;
+	margin-left: 1%;
+}
+
+.wide-div{
+	margin: 0 5%;
+}
+/*
+	MEDIA QUERIES
+ */
+
+@media (max-width: 768px){
+
+	.community-header{
+		margin-left: 34%;
+	}
+
+	#social-connect{
+		margin-left: -10%;
+	}
+
+	.connect-head h2{
+		margin-left: 30%;
+	}
+	.parker-logo{
+		margin-left:0;
+	}
+
+	.col-12{
+		margin-bottom: 5px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+
+	body{
+			margin: 0 2.55%;
+	}
+
+	.community-header{
+		margin-left: 40% !important;
+	}
+	#icon-row{
+		padding-left: 58px;
+	}
+	.parker-logo{
+		margin-left:35%;
+	}
+}
+
+@media (min-width: 1200px){
+
+	body{
+		margin: 0 2.55%;
+	}
+
+	.community-header{
+		margin-left: 45% !important;
+	}
+
+	.btn-group.nav{
+		margin-top: 0.5%;
+	}
+
+	.parker-logo{
+		margin-left:40%;
+	}
+
+}
